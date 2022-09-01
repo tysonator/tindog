@@ -1,0 +1,147 @@
+ body {
+    font-family: 'Montserrat', sans-serif;
+ }
+ #title {
+    background-color: #FF4C68;
+    color: #FFF;
+ }
+ h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+ }
+ h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+ }
+ h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+ }
+ .container-fluid {
+    padding: 3% 15% 7% 15%;
+ }
+/* Navagation Bar */
+ .navbar {
+    padding-bottom: 4.5rem;
+ }
+ .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+ }
+ .navbar-item {
+    padding: 0 18px;
+ }
+ .nav-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+ }
+ /* Download Buttons */
+ .btn-dwn {
+    margin: 5% 3% 5% 0%
+ } 
+/* Title image */
+ .img-iphone {
+    width: 22%;
+    rotate:25deg;
+    position:absolute;
+ }
+/* Features */
+ #features {
+    background-color:#fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+ }
+ .fea-centered {
+    text-align: center;
+ }
+ .fea-logo {
+    color: #EF8172;
+    font-size: 5rem;
+    margin: 5rem 0;
+ }
+ .fea-logo:hover {
+    color: #FF4c68;
+ }
+ .Fea-text {
+    color: #8F8F8F;
+    padding: 0 10%;
+ }
+/* Carousel */
+ #testimonials {
+    background-color: #EF8172;
+    color: #fff;
+    text-align: center; 
+ }
+ .carousel-item {
+    padding: 7% 15%; 
+ }
+ .tes-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+ }
+ /* Press */
+ #press {
+    background-color: #EF8172; 
+    padding-bottom: 3%; 
+    text-align: center; 
+ }
+ .pre-img {
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+ }
+/* Pricing */
+ #pricing {
+    padding: 7% 15% 3% 7%;
+    text-align: center; 
+ }
+ .pri-card {  
+    padding: 3% 2%;
+ }
+ #cta {
+    background-color: #FF4C68; 
+    color: #fff;
+    padding: 3% 15% 7% 15%;
+    text-align: center;   
+ }
+ .cta-text {
+    font-size:2.5rem ;
+    line-height: 1.5;
+ }
+ #footer {
+    padding: 7% 15% 0% 15%;
+    text-align: center;
+ }
+.foo-text {
+margin-top: 20px;
+    color:#8f8f8f;
+}
+.foo-icon {
+padding: 0 10px;
+}
+
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .img-iphone {
+        width: 60%;
+        rotate: 0deg;
+        position:static;
+    }
+}
+
+
+
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
